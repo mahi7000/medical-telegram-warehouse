@@ -1,0 +1,23 @@
+# --- Task 1: Data Scraping & Core ---
+telethon==1.35.0
+python-dotenv==1.0.1
+
+# --- Task 2: Data Loading & Transformation ---
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.31
+dbt-postgres==1.8.2
+
+# --- Task 3: Data Enrichment (Computer Vision) ---
+ultralytics==8.2.32
+pandas==2.2.2
+opencv-python-headless==4.9.0.80
+
+# --- Task 4: Analytical API ---
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+
+# --- Task 5: Pipeline Orchestration ---
+dagster==1.7.13
+dagster-webserver==1.7.13
+dagster-postgres==1.7.13
