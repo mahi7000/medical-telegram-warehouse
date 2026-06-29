@@ -8,3 +8,4 @@ dbt_modules/
 logs/
 target/
 profiles.yml
+session_notebook.session
