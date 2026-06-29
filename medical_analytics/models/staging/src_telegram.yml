@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_source
+    schema: raw
+    tables:
+      - name: telegram_messages
+        description: "Raw scraped Telegram messaging records and media pathways ingested via Telethon."
